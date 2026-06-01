@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby18
+#!/usr/bin/env ruby
 
 require ENV['TM_SUPPORT_PATH'] + '/lib/textmate'
 require ENV['TM_BUNDLE_SUPPORT'] + '/lib/grails/application'

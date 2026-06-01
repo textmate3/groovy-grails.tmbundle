@@ -9,6 +9,6 @@ export TM_GRAILS=`which $TM_GRAILS`
 script="$1"
 shift
 
-ruby18 -r GrailsMate -r ui -- "$TM_BUNDLE_SUPPORT/GrailsMate/$script.rb" $@
+ruby -r GrailsMate -r ui -- "$TM_BUNDLE_SUPPORT/GrailsMate/$script.rb" $@
 
 rescan_project
